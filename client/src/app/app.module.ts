@@ -12,7 +12,7 @@ import {HttpModule} from '@angular/http';
 import {D3Service} from 'd3-ng2-service';
 import { PanelComponent } from './components/panel/panel.component';
 
-const config: SocketIoConfig = {url: 'http://localhost:3000', options: {}};
+const config: SocketIoConfig = {url: '', options: {}};
 
 
 @NgModule({
