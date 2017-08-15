@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-sm-4 col-md-3 text-center" *ngFor="let stock of stocks">
+    <div class="thumbnail">
+      <div class="caption">
+        <div class="row">
+          <div class="col-sm-6">
+            <h3>{{stock}}</h3>
+
+          </div>
+          <div class="col-sm-6">
+            <button class="btn btn-danger delet" (click)="onDelet(stock)">X</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

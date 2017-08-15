@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../server/config/port.js"],"names":["module","exports","process","env","PORT"],"mappings":";;AAAAA,OAAOC,OAAP,GAAiBC,QAAQC,GAAR,CAAYC,IAAZ,IAAoB,IAArC","file":"port.js","sourcesContent":["module.exports = process.env.PORT || 3000;"]}

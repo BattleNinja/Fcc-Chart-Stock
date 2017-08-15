@@ -1,0 +1,10 @@
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+  <div class="row">
+    <div class="col-sm-9">
+      <input type="text" class="form-control" placeholder="Enter Stock Symbol" ngModel name="stock" required>
+    </div>
+    <div class="col-sm-3">
+      <button class="btn btn-default btn-group-justified" type="submit">Find</button>
+    </div>
+  </div>
+</form>

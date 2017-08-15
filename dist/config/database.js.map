@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../server/config/database.js"],"names":["module","exports","database","secret"],"mappings":";;AAAAA,OAAOC,OAAP,GAAiB;AACbC,cAAS,mDADI;AAEbC,YAAQ;AAFK,CAAjB","file":"database.js","sourcesContent":["module.exports = {\n    database:'mongodb://yibo:1234@ds055555.mlab.com:55555/stock',\n    secret: 'yoursecret'\n};\n"]}
